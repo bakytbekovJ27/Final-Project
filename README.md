@@ -26,7 +26,7 @@ The system allows a user to control their computer and presentations without phy
 
 1.  Clone the repository:
     ```
-    git clone <repository-url>
+    git clone https://github.com/bakytbekovJ27/Final-Project
     ```
 2.  Install the dependencies:
     ```
