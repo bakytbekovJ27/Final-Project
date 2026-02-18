@@ -1,29 +1,35 @@
-# GesturePro
+# 🖐️ GesturePro: Professional Gesture Control System
 
-Professional Gesture Control System for Presentations.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/MediaPipe-008080?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-In--Development-green?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/bakytbekovJ27/Final-Project?style=for-the-badge&color=gold" />
+</p>
 
-This project is a diploma project to create a comprehensive system for remote control of presentations and computers using hand gestures.
+---
 
-## Description
+## 🚀 О проекте
 
-The system allows a user to control their computer and presentations without physical contact, using only a webcam. It is built in Python and uses the MediaPipe library for hand tracking.
+**GesturePro** — это интеллектуальная система дистанционного управления компьютером и презентациями с помощью жестов рук. Разработана как дипломный проект для создания бесконтактного интерфейса взаимодействия "человек-компьютер".
 
-## Modules
+Докладчик может свободно перемещаться по аудитории, переключать слайды, рисовать на экране и даже вводить текст, используя только веб-камеру.
 
-*   **Painter:** A virtual drawing tool.
-*   **Virtual Keyboard:** A gesture-based keyboard for text input.
-*   **Gesture Mouse:** Controls the mouse cursor with hand gestures.
-*   **Presentation Control:** Controls presentations.
+---
 
-## Getting Started
+## ✨ Ключевые модули
 
-### Prerequisites
+*   🎨 **Painter (Виртуальный художник):** Рисование аннотаций прямо поверх презентации в реальном времени.
+*   ⌨️ **Virtual Keyboard:** Набор текста и выполнение быстрых команд через жесты-"щипки".
+*   🖱️ **Gesture Mouse:** Полная замена физической мыши: клики, скролл и перемещение курсора.
+*   📊 **Presentation Control:** Специализированные жесты для PowerPoint, Google Slides и Canva.
 
-*   Python 3.9+
-*   Webcam
+---
 
-### Installation
+## 🛠️ Архитектура системы
 
+<<<<<<< HEAD
 1.  Clone the repository:
     ```
     git clone https://github.com/bakytbekovJ27/Final-Project
@@ -34,7 +40,57 @@ The system allows a user to control their computer and presentations without phy
     ```
 
 ### Usage
+=======
+Проект организован по модульному принципу для максимальной производительности:
+>>>>>>> 9e588fc (build: restructure project to modular architecture and update README with badges)
 
+```bash
+GesturePro/
+├── core/           # Ядро системы (распознавание, камера, состояния)
+├── modules/        # Функциональные модули (мышь, рисование, клавиатура)
+├── ui/             # Пользовательский интерфейс и оверлеи
+├── utils/          # Алгоритмы сглаживания и детекторы
+└── Report_plan/    # Отчеты о ходе выполнения проекта
 ```
+
+---
+
+## 📦 Установка и запуск
+
+### 1. Клонирование репозитория
+```bash
+git clone https://github.com/bakytbekovJ27/Final-Project.git
+cd Final-Project
+```
+
+### 2. Установка зависимостей
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Запуск системы
+```bash
 python main.py
 ```
+
+---
+
+## 🗺️ Дорожная карта (Roadmap)
+
+- [x] **Неделя 1:** Рефакторинг и переход на модульную архитектуру.
+- [ ] **Неделя 2-5:** Разработка модуля Mouse Control (точность и сглаживание).
+- [ ] **Неделя 6-7:** Интеграция с презентационным ПО (PowerPoint API).
+- [ ] **Неделя 8-11:** Создание GUI настроек и системы калибровки.
+- [ ] **Неделя 12-15:** Финальное тестирование и защита диплома. 🎓
+
+---
+
+## 🤝 Контакты
+
+**Автор:** Жакыпбай Айдин  
+**GitHub:** [@bakytbekovJ27](https://github.com/bakytbekovJ27)  
+**Проект:** Дипломная работа (2026)
+
+---
+<p align="center">Made with ❤️ for better presentations</p>
+
