@@ -1,0 +1,24 @@
+# Core dependencies
+opencv-python
+mediapipe
+numpy
+pyautogui
+pynput
+PyQt6
+PyYAML
+
+# OS-specific dependencies
+# Windows
+# pywin32
+# comtypes
+
+# macOS
+pyobjc
+
+# Linux
+# python-xlib
+
+# Optional dependencies
+python-pptx
+screeninfo
+playsound

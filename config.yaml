@@ -1,0 +1,24 @@
+# GesturePro Configuration
+
+# Camera settings
+camera:
+  index: 0
+  width: 1280
+  height: 720
+  fps: 30
+
+# Gesture settings
+gestures:
+  - name: "fist"
+    action: "start_stop_presentation"
+  - name: "open_palm"
+    action: "black_screen"
+  - name: "swipe_right"
+    action: "next_slide"
+  - name: "swipe_left"
+    action: "previous_slide"
+
+# Mouse control settings
+mouse:
+  sensitivity: 1.5
+  smoothing: 0.7
