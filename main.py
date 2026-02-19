@@ -1,3 +1,7 @@
+import os
+# Fix for Protobuf/MediaPipe compatibility issues
+os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
+
 import cv2
 import sys
 from core.gesture_engine import GestureEngine

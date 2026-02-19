@@ -787,6 +787,6 @@ GesturePro/
 
 ---
 
-**Автор плана:** Claude (AI Assistant)  
+**Автор плана:** AIDIN AND ZHAKYPBAI 
 **Дата:** 12 февраля 2026  
 **Версия:** 1.0

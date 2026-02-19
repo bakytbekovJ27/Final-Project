@@ -29,20 +29,7 @@
 
 ## 🛠️ Архитектура системы
 
-<<<<<<< HEAD
-1.  Clone the repository:
-    ```
-    git clone https://github.com/bakytbekovJ27/Final-Project
-    ```
-2.  Install the dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
-
-### Usage
-=======
 Проект организован по модульному принципу для максимальной производительности:
->>>>>>> 9e588fc (build: restructure project to modular architecture and update README with badges)
 
 ```bash
 GesturePro/
